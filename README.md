@@ -1,12 +1,12 @@
-# PHP Integration Engineer Test
+# PHP Integration Engineer Test Seba
 
 ## The Problem
 
-You are a part of the _Checkout & Fullfilment_ team, that is responsible to the **checkout application** that allows the consumers to complete the orders with their information, including personal information, billing and shipping addresses and payment data. 
+You are a part of the _Checkout & Fullfilment_ team, that is responsible to the **checkout application** that allows the consumers to complete the orders with their information, including personal information, billing and shipping addresses and payment data.
 
-The _Shipping_ team is about to release a new service to replace the direct access to the CEPs(1) database by a webservice that provides a RESTful API. This addresses information is needed during the checkout process in order to auto-complete the address form in our checkout. 
+The _Shipping_ team is about to release a new service to replace the direct access to the CEPs(1) database by a webservice that provides a RESTful API. This addresses information is needed during the checkout process in order to auto-complete the address form in our checkout.
 
-To make it a bit harder, the **address service** is under development and will be released on next week, but we can't wait to the service deployment to start the development, and the only reference we have is the API specification described in this document, so we need you to make it happen. 
+To make it a bit harder, the **address service** is under development and will be released on next week, but we can't wait to the service deployment to start the development, and the only reference we have is the API specification described in this document, so we need you to make it happen.
 
 ## The Objective
 
@@ -36,7 +36,7 @@ The Address API is available in the *address* endpoint the has the following for
 
 Here are some examples of the expected behaviors:
 
-#### Available Address 
+#### Available Address
 ```
 $ curl -XGET -H 'Authentication bearer: YouShallNotPass' -H "Content-type: application/json" https://shipping.tiendanube.com/address/40010000
 
